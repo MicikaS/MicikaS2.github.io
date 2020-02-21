@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mi17475</title>
+        <meta charset="UTF-8">
+        <!-- <link rel="stylesheet" href="stil2.css"> -->
+
+
+
+        <style type="text/css">
+        
+        @font-face{
+            font-family:'font';
+            src:url('harry.TTF');
+        }
+
+            body{
+                background-image:url('footprints.png');
+                background-repeat: repeat-y;
+                background-position-x: 10%;
+                background-color: burlywood;
+            }
+
+
+            #omotac{
+                width: 70%;
+                height: 800px;
+                margin:auto;
+                margin-bottom: 100px;
+                position: relative;
+            }
+
+            header h1{
+                font-family:'font';
+                font-size:80px;
+                color:goldenrod;
+                text-align:center;
+                margin-top:20px;
+                text-shadow: rgb(90, 65, 0) 2px 2px;
+            }
+
+            .info{
+                width: 44%;
+                height: 350px;
+                font-family: 'Palatino Linotype','Book Antiqua','Palantino',serif;
+                font-size:20px;
+                position: absolute;
+                
+                
+                   
+            }
+
+            .info h2{
+                text-align: center;
+                padding-top:5px;
+            }
+
+            .info h2::first-letter{
+                font-family: 'font';
+                font-size: 70px;
+                text-transform: uppercase;
+            }
+
+            #info1{
+                background-image: linear-gradient(60deg, red, rgb(165,0,0),red,rgb(165,0,0),red,rgb(165,0,0));
+                color:gold;
+                text-align:center;
+                top:100px;
+                left:5%;
+            }
+
+            table{
+                margin:auto;
+                border:1px solid gold;
+                border-radius: 5px;
+            }
+
+            tr:nth-child(4) td{
+                color:black;
+                text-decoration: line-through;
+            }
+
+            #info2{
+                background-image:linear-gradient(120deg,green, rgb(0, 80, 0), green, rgb(0, 80, 0), green , rgb(0,80, 0 ));
+                color:silver;
+                left:50%;
+                top:100px;
+             }
+
+            .lista li{
+                list-style-image: url('snitch.png');
+            }
+            
+
+            #info3{
+                background-image:linear-gradient(-60deg,yellow, darkgoldenrod, yellow, darkgoldenrod, yellow ,darkgoldenrod);
+                color:black;
+                padding-left:25px;
+                padding-right: 20px;
+                left:5%;
+                top:460px;
+                box-sizing: border-box;
+             }
+
+             #info3 a:visited, a:link{
+                 color:black;
+                 text-decoration: none;
+                 
+             }
+
+             #info3 a:hover{
+                 cursor:help;
+             }
+
+
+             #info4{
+                 left:50%;
+                 top:460px;
+                 background-image: linear-gradient(-120deg,royalblue, #222f5b, royalblue, #222f5b, royalblue,#222f5b);
+                 color:rgb(205, 127, 50);
+                 text-align:center;
+            }
+
+            #info4 img{
+                width:150px;
+                height: 150px;
+                padding:auto;
+            }
+
+            #info4 figcaption{
+                font-weight: bold;
+                font-style: italic;
+                text-align: center;
+            }
+
+
+            #grbovi img{
+                width:30%;
+                height: 40%;
+            }
+
+            #grbovi{
+                position: absolute;
+                left:41%;
+                top:51%;
+            }
+
+
+            footer{
+                position: fixed;
+                bottom:0px;
+                left:0px;
+            }
+
+            footer a:link, a:visited{
+                color:maroon;
+                font-size:20ox;
+                text-decoration: none;
+            }
+
+            footer a:hover{
+                background-color: maroon;
+                color:burlywood;
+                border-radius: 5px;
+                font-size: 25px;
+            }
+
+
+        </style>
+
+        
+     </head>
+    <body>
+        <div id="omotac">
+            <header id="header">
+                <h1>\ Hogwarts houses /</h1>
+            </header>
+
+            <div id="info1" class="info">
+                <h2>Griffindor</h2>
+                <table>
+                    <caption>The Maraunders</caption>
+                    <tr>
+                        <td>James Potter</td>
+                        <td>Prongs</td>
+                        <td>Deer</td>
+                    </tr>
+                    <tr>
+                        <td>Sirius Black</td>
+                        <td>Padfoot</td>
+                        <td>Grim</td>
+                    </tr>
+                    <tr>
+                        <td>Remus Lupin</td>
+                        <td>Mooney</td>
+                        <td>Werewolk</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Petegrew</td>
+                        <td>Wormtail</td>
+                        <td>Rat</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="info2" class="info">
+                <h2>Slytherin</h2>
+                <ul>
+                    <li>Captains</li>
+                    <ul class="lista">
+                        <li>Emma Vanity</li>
+                        <li>Lucinda Talkalot</li>
+                        <li>Marcus Flint</li>
+                    </ul>
+                    <li>Seekers</li>
+                    <ul class="lista">
+                        <li>Regular Black</li>
+                        <li>Draco Malfoy</li>
+                    </ul>
+                </ul>
+            </div>
+
+
+
+
+            <div id="info3" class="info">
+                <h2>Hufflepuff</h2>
+                <p>Helga Hufflepuff's Cup was a megical item created by <a href="http://harrypotter.wikia.com/wiki/Hufflepuff"  target="_blank">Helgfa Huffdsfs </a> ,one of the founder of Hogwards School of Witchcaft and wizardy. It was a small golden cup with who handles with a badger engraved on the si and a few jewels </p>
+            </div>
+
+
+            <div id="info4" class="info">
+                <h2>Ravenclaw</h2>
+                <figure>
+                    <img src="diadem.jpg" alt="slika">
+                    <figcaption>Lost diadem of Rowena Rowenclaw</figcaption>
+
+                </figure>
+            </div>
+
+            <div id="grbovi">
+                <img src="houses.png" alt="slika">
+            </div>
+
+
+            <footer>
+                <a href="#header">Back to top!</a>
+            </footer>
+        </div>
+    </body>
+</html>
